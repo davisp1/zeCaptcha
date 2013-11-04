@@ -4,7 +4,7 @@
     <form id="zeForm" data-action-url="success" action="" method="post">
       <h3><span>Captcha Form</span></h3>
       <p class="submit">
-        <button type="submit">Send</button>
+        <button type="submit">Submit</button>
       </p>
     </form>
 </html>
