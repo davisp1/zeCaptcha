@@ -1,0 +1,10 @@
+<html>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="jquery.zeCaptcha.js"></script>
+    <form id="form3" data-action-url="test" action="" method="post">
+      <h3><span>Captcha Form</span></h3>
+      <p class="submit">
+        <button type="submit">Send</button>
+      </p>
+    </form>
+</html>
