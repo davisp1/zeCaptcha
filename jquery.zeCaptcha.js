@@ -32,12 +32,9 @@
             });
 
             $form.find("[type=submit]").on("click",function(event){
-                event.preventDefault();
-                if( checkValues() ){
-                    $form.submit();
-                }
-                else{
-                    alert("captcha incorrect!")
+                if( ! checkValues() ){
+                    event.preventDefault();
+                    alert("captcha incorrect!");
                 }
             });
         }
